@@ -45,7 +45,7 @@ const Controladores = () => {
         {produtos.map((produto) => (
           <p key={produto.slug}>
             <a
-              href={`http://localhost:3001/produto/${produto.slug}`}
+              href={`${process.env.REACT_APP_API_URL}/produto/${produto.slug}`}
               target="_blank"
               rel="noopener noreferrer"
               className="link-vermelho"
