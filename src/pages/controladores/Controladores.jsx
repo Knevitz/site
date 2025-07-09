@@ -45,7 +45,7 @@ const Controladores = () => {
         {produtos.map((produto) => (
           <p key={produto.slug}>
             <a
-              href={`${process.env.REACT_APP_API_URL}produto/${produto.slug}`}
+              href={`https://loja-olive.vercel.app/produto/${produto.slug}`}
               target="_blank"
               rel="noopener noreferrer"
               className="link-vermelho"
