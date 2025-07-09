@@ -61,7 +61,7 @@ const Controladores = () => {
         <div className="mb-4">
           <Button
             variant="danger"
-            href={`${process.env.REACT_APP_API_URL}/api/catalogo/arquivo`}
+            href={`${process.env.REACT_APP_API_URL}api/catalogo/arquivo`}
             target="_blank"
             rel="noopener noreferrer"
           >
